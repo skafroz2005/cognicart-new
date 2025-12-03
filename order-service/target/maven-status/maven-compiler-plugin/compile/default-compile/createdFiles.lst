@@ -1,0 +1,9 @@
+com\cognicart\orderservice\service\OrderService.class
+com\cognicart\orderservice\model\OrderLineItems.class
+com\cognicart\orderservice\dto\OrderRequest.class
+com\cognicart\orderservice\controller\OrderController.class
+com\cognicart\orderservice\model\Order.class
+com\cognicart\orderservice\config\WebClientConfig.class
+com\cognicart\orderservice\OrderServiceApplication.class
+com\cognicart\orderservice\repository\OrderRepository.class
+com\cognicart\orderservice\dto\OrderLineItemsDto.class

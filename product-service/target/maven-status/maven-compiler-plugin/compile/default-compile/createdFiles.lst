@@ -1,0 +1,10 @@
+com\cognicart\productservice\model\Product.class
+com\cognicart\productservice\repository\ProductRepository.class
+com\cognicart\productservice\service\ProductService.class
+com\cognicart\productservice\ProductServiceApplication.class
+com\cognicart\productservice\dto\ProductRequest$ProductRequestBuilder.class
+com\cognicart\productservice\model\Product$ProductBuilder.class
+com\cognicart\productservice\dto\ProductResponse$ProductResponseBuilder.class
+com\cognicart\productservice\dto\ProductResponse.class
+com\cognicart\productservice\controller\ProductController.class
+com\cognicart\productservice\dto\ProductRequest.class
