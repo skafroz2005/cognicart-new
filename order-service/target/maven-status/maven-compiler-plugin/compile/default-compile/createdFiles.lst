@@ -5,5 +5,7 @@ com\cognicart\orderservice\controller\OrderController.class
 com\cognicart\orderservice\model\Order.class
 com\cognicart\orderservice\config\WebClientConfig.class
 com\cognicart\orderservice\OrderServiceApplication.class
+com\cognicart\orderservice\dto\InventoryResponse$InventoryResponseBuilder.class
+com\cognicart\orderservice\dto\InventoryResponse.class
 com\cognicart\orderservice\repository\OrderRepository.class
 com\cognicart\orderservice\dto\OrderLineItemsDto.class

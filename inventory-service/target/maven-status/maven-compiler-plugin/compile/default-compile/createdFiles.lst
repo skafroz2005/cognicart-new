@@ -1,5 +1,7 @@
+com\cognicart\inventoryservice\InventoryServiceApplication.class
+com\cognicart\inventoryservice\dto\InventoryResponse$InventoryResponseBuilder.class
 com\cognicart\inventoryservice\model\Inventory.class
 com\cognicart\inventoryservice\repository\InventoryRepository.class
 com\cognicart\inventoryservice\controller\InventoryController.class
-com\cognicart\inventoryservice\InventoryServiceApplication.class
+com\cognicart\inventoryservice\dto\InventoryResponse.class
 com\cognicart\inventoryservice\service\InventoryService.class

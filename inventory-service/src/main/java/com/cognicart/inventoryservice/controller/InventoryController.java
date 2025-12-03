@@ -21,17 +21,16 @@ public class InventoryController {
     //http://localhost:8082/api/inventory?skuCode=iphone_14&skuCode=iphone_14_red
     // We are using @RequestParam for multiple skuCodes
 
+    @GetMapping
+    @ResponseStatus(HttpStatus.OK)
+    public List<InventoryResponse> isInStock(@RequestParam List<String> skuCode){
+        return inventoryService.isInStock(skuCode);
+    }
+
     // @GetMapping
     // @ResponseStatus(HttpStatus.OK)
     // public List<InventoryResponse> isInStock(@RequestParam List<String> skuCode){
-
     //     return inventoryService.isInStock(skuCode);
     // }
-
-    @GetMapping
-    @ResponseStatus(HttpStatus.OK)
-    public boolean isInStock(@RequestParam String skuCode){
-        return inventoryService.isInStock(skuCode);
-    }
 
 }
